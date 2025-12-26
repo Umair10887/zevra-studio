@@ -2,14 +2,31 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Products</title>
+<title>Products - ZEVRA Studio</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header><h1>ZEVRA Studio</h1></header>
+
+<header class="header">
+  <h1>ZEVRA Studio</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<h2 class="title">Our T‑Shirts</h2>
+
 <div class="products">
-<button onclick="addToCart('Black T-Shirt',1999)">Black T-Shirt</button>
+  <div class="product">
+    <img src="images/tshirt1.jpg" alt="Tshirt">
+    <h3>Black T‑Shirt</h3>
+    <p>Rs. 1999</p>
+    <button onclick="addToCart('Black T‑Shirt',1999)">Add to Cart</button>
+  </div>
 </div>
+
 <script src="js/script.js"></script>
 </body>
 </html>
